@@ -10,8 +10,8 @@ public class Main {
 
  public static class B extends A{
 
-      @Override
-      public String meth(){
+     @Override
+     public String meth(){
           return "Method is overridden in Extended class B";
       }
   }
@@ -23,5 +23,6 @@ public class Main {
 
       B b1=new B();
       b1.meth();
+      //jhjmn
   }
 }
