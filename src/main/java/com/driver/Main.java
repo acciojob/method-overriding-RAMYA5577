@@ -20,6 +20,8 @@ public class Main {
 
       B b=new B();
       System.out.println(b.meth());
+      B b1=new B();
+      System.out.println(b1.meth());
 
   }
 }
